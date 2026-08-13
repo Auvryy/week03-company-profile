@@ -27,7 +27,54 @@
                 }
             }
         }
+        document.addEventListener('DOMContentLoaded', () => {
+            const revealEls = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('reveal-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.15 });
+            revealEls.forEach(el => observer.observe(el));
+        });
     </script>
+    <style>
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(24px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-in {
+            opacity: 0;
+            animation: fadeInUp 0.8s ease forwards;
+        }
+        .hero-in-1 { animation-delay: 0.1s; }
+        .hero-in-2 { animation-delay: 0.25s; }
+        .hero-in-3 { animation-delay: 0.4s; }
+        .hero-in-4 { animation-delay: 0.55s; }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+        .reveal.reveal-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Respect users who've asked their OS/browser to reduce motion */
+        @media (prefers-reduced-motion: reduce) {
+            .hero-in, .reveal {
+                opacity: 1 !important;
+                transform: none !important;
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+    </style>
 </head>
 <body class="bg-white text-ink font-sans antialiased">
 

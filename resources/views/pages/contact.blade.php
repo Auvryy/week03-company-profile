@@ -72,8 +72,8 @@
         <!-- Embedded Map -->
         <div class="border border-hairline aspect-video">
             <iframe
-                src="https://www.google.com/maps?q=Laguna,Philippines&output=embed"
-                class="w-full h-full grayscale"
+                src="https://www.google.com/maps?q=Laguna,Pila,Philippines&output=embed"
+                class="w-full h-full "
                 style="border:0;"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
