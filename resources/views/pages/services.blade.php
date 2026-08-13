@@ -101,7 +101,7 @@
     <div class="reveal max-w-6xl mx-auto px-6 py-20 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">Not sure which service you need?</h2>
         <p class="text-white/60 mb-8 max-w-lg mx-auto">Talk to us and we'll point you to exactly where your risk is highest.</p>
-        <a href="{{ url('/contact') }}" class="font-mono text-sm uppercase tracking-wide bg-white text-ink px-8 py-4 inline-block hover:bg-white/90 transition-colors">
+        <a href="{{ url('/contact') }}" class="font-mono text-sm uppercase tracking-wide bg-white text-ink px-8 py-4 inline-block hover:bg-rose-400 transition-colors duration-300">
             Contact us →
         </a>
     </div>

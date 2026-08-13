@@ -16,9 +16,8 @@
         <div>
             <p class="text-white/40 text-xs uppercase tracking-wide mb-3">// Follow</p>
             <div class="flex gap-4 text-xs">
-                <a href="#" class="hover:text-white transition-colors">LinkedIn</a>
-                <a href="#" class="hover:text-white transition-colors">GitHub</a>
-                <a href="#" class="hover:text-white transition-colors">X</a>
+                <a href="https://github.com/Auvryy" target="_blank" rel="noopener" class="hover:text-violet-400 transition-colors duration-300">GitHub</a>
+                <a href="https://www.linkedin.com/in/andy-sarne/" target="_blank" rel="noopener" class="hover:text-sky-400 transition-colors duration-300">LinkedIn</a>
             </div>
         </div>
 
