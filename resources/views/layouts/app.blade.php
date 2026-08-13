@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
 
-    <!-- Tailwind Play CDN — swap for @vite once you've run npm install tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {

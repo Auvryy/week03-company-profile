@@ -5,8 +5,17 @@
 @section('content')
 
 <!-- Hero -->
-<section class="bg-ink text-white">
-    <div class="max-w-6xl mx-auto px-6 py-32">
+<section class="relative bg-ink text-white overflow-hidden">
+
+    <!-- Background video -->
+    <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-40">
+        <source src="{{ asset('videos/globe.mp4') }}" type="video/mp4">
+    </video>
+
+    <!-- Dark overlay to keep text readable -->
+    <div class="absolute inset-0 bg-ink/70"></div>
+
+    <div class="relative max-w-6xl mx-auto px-6 py-32">
         <p class="font-mono text-xs uppercase tracking-widest text-white/40 mb-6">// system status: secure</p>
         <h1 class="font-mono font-extrabold text-4xl md:text-6xl leading-tight max-w-3xl">
             We defend what you can't afford to lose.
