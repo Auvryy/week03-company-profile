@@ -19,6 +19,7 @@ A responsive, multi-page company profile website for **Obsidian Security**, a fi
 
 ![](screenshots/contact_page_view2.png)
 
+![](screenshots/folder-structure.png)
 ---
 
 ## 1. Introduction
