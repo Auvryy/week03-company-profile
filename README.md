@@ -235,6 +235,7 @@ PHP Group. (2025). *PHP manual*. The PHP Group. https://www.php.net/docs.php
 Tailwind Labs. (2025). *Tailwind CSS documentation*. Tailwind Labs. https://tailwindcss.com/docs
 
 ---
+Disclaimer: The background video and character images used (Evernight, Jingliu, and Hysilens from Honkai: Star Rail) are not my own and belong to their respective owners. Used purely for educational purposes as part of a school project, no copyright infringement intended, and this project is not for sale or commercial use.
 
 **GitHub:** [github.com/Auvryy](https://github.com/Auvryy)
 **LinkedIn:** [linkedin.com/in/andy-sarne](https://www.linkedin.com/in/andy-sarne/)
