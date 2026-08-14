@@ -189,7 +189,7 @@ Code:
 ![](screenshots/routes.png)
 
 ### Controller
-![](screenshots/controller.png)
+![](screenshots/controllers.png)
 
 ### VS Code Project / Folder Structure
 ![](screenshots/initialization.png)
