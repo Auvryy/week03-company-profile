@@ -237,5 +237,7 @@ Tailwind Labs. (2025). *Tailwind CSS documentation*. Tailwind Labs. https://tail
 ---
 Disclaimer: The background video and character images used (Evernight, Jingliu, and Hysilens from Honkai: Star Rail) are not my own and belong to their respective owners. Used purely for educational purposes as part of a school project, no copyright infringement intended, and this project is not for sale or commercial use.
 
+Obsidian Security is a fictional company created solely for this academic project and is not affiliated with any real company of the same name.
+
 **GitHub:** [github.com/Auvryy](https://github.com/Auvryy)
 **LinkedIn:** [linkedin.com/in/andy-sarne](https://www.linkedin.com/in/andy-sarne/)
